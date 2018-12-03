@@ -216,6 +216,9 @@ h2 {
   position: absolute;
   top: 20px;
   right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
 }
 #botao-modal:hover {
   background: white;
@@ -252,4 +255,15 @@ h2 {
 
 #fechar:hover{
   background-color: #002868;
+}
+
+h3 {
+  color: #0054db;
+  font-size: 24px;
+}
+.janela p{
+  color: #002868;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
