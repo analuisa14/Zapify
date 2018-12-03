@@ -1,0 +1,152 @@
+[
+    {
+        "nome": "Despacito",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=kJQP7kiw5Fk"
+    } , 
+    {
+        "nome": "thank u, next",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=gl1aHhXnN1k"
+    } ,
+    {
+        "nome": "Woman Like Me",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=fSOpiZo1BAA"
+    } ,
+    {
+        "nome": "Bad Romance",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=qrO4YZeyl0I"
+    } ,
+    {
+        "nome": "Bad Liar",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=NZKXkD6EgBk"
+    } ,
+    {
+        "nome": "Billie Jean",
+        "genero": "pop",
+        "link": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
+    } ,
+    {
+        "nome": "Brazil",
+        "genero": "indie",
+        "link": "https://www.youtube.com/watch?v=QHgh77iE6qc"
+    } ,
+    {
+        "nome": "The Less I Know The Better",
+        "genero": "indie",
+        "link": "https://www.youtube.com/watch?v=sBzrzS1Ag_g"
+    } ,
+    {
+        "nome": "Girls Like Me",
+        "genero": "indie",
+        "link": "https://www.youtube.com/watch?v=FJ66D7TcEWU"
+    } ,
+    {
+        "nome": "Still Feel",
+        "genero": "indie",
+        "link": "https://www.youtube.com/watch?v=KOOhPfMbuIQ"
+    } ,
+    {
+        "nome": "Feel It Still",
+        "genero": "indie",
+        "link": "https://www.youtube.com/watch?v=pBkHHoOIIn8"
+    } ,
+    {
+        "nome": "Bohemian Rhapsody",
+        "genero": "rock",
+        "link": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
+    } ,
+    {
+        "nome": "Alexander The Great",
+        "genero": "rock",
+        "link": "https://www.youtube.com/watch?v=1oTEQf1d9Iw"
+    } ,
+    {
+        "nome": "Uprising",
+        "genero": "rock",
+        "link": "https://www.youtube.com/watch?v=w8KQmps-Sog"
+    } ,
+    {
+        "nome": "Come Together",
+        "genero": "rock",
+        "link": "https://www.youtube.com/watch?v=45cYwDMibGo"
+    } ,
+    {
+        "nome": "Should I Stay Or Should I Go",
+        "genero": "rock",
+        "link": "https://www.youtube.com/watch?v=BN1WwnEDWAM"
+    } ,
+    {
+        "nome": "Parado no Bailão",
+        "genero": "funk",
+        "link": "https://www.youtube.com/watch?v=upCptHeThio"
+    } ,
+    {
+        "nome": "O Bebê",
+        "genero": "funk",
+        "link": "https://www.youtube.com/watch?v=Btyfrd-UtSw"
+    } ,
+    {
+        "nome": "Vou Falar Pra Tu",
+        "genero": "funk",
+        "link": "https://www.youtube.com/watch?v=M5cXtRgZ3a8"
+    } ,
+    {
+        "nome": "Agora Vai Sentar",
+        "genero": "funk",
+        "link": "https://www.youtube.com/watch?v=SHVkm-TqrT0"
+    } ,
+    {
+        "nome": "Não Fala Não pra Mim",
+        "genero": "sertanejo",
+        "link": "https://www.youtube.com/watch?v=kpEQ3ReRQfg"
+    } ,
+    {
+        "nome": "Quem Pegou, Pegou",
+        "genero": "sertanejo",
+        "link": "https://www.youtube.com/watch?v=X8VDYICEIYw"
+    } ,
+    {
+        "nome": "Largado Às Traças",
+        "genero": "sertanejo",
+        "link": "https://www.youtube.com/watch?v=WcTRQXtXJPs"
+    } ,
+    {
+        "nome": "Oi Nego",
+        "genero": "sertanejo",
+        "link": "https://www.youtube.com/watch?v=Id2cTK9TKPE"
+    } ,
+    {
+        "nome": "Tanto Fez ou Tanto Faz",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=qFhvA5zZatU"
+    } ,
+    {
+        "nome": "Ponto Fraco",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=Zl6X0BLV6bk"
+    } ,
+    {
+        "nome": "Cheia de Manias",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=uJz0F36TGoc"
+    } ,
+    {
+        "nome": "Nem de Graça",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=yfGcpnp9Wgc"
+    } ,
+    {
+        "nome": "Deixa Acontecer",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=c4XeTP11EI8"
+    } ,
+    {
+        "nome": "Me Apaixonei Pela Pessoa Errada",
+        "genero": "pagode",
+        "link": "https://www.youtube.com/watch?v=qiAoCkue1PE"
+    }
+]

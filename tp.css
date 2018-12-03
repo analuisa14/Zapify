@@ -168,8 +168,8 @@ h2 {
   display: inline-block;
 }
 .janela {
-  position: fixed;
-  top: 20%;
+  position: absolute;
+  top: 7%;
   left: 20%;
   width: 60%;
   background-color: white;

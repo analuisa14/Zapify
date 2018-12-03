@@ -14,6 +14,8 @@ $(document).ready(function() {
         $janela.append($('<p>Também estudante de Informática no CEFET-MG, Artur Filardi joga em horas vagas, apesar de não ter paciência para jogar jogos longos e gosta de robótica.</p>'));
         $janela.append($('<h3>Henrique</h3>'));
         $janela.append($('<p>Infboy também que quando não está estudando, está dormindo nas aulas ou vendo memes no twitter.</p>'));
+        $janela.append($('<h3>feat. Alface</h3>'));
+        $janela.append($('<p>Alface é o rato da programação. Não é do grupo original porém ajudou demais no processo!!</p>'));
         let $fechar = $('<button type="button">Fechar</button>');
         $janela.append($fechar);
 
