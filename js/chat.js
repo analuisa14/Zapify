@@ -59,8 +59,11 @@ let bot = [
     }
 ]
 let playlistZapify;
-axios.get('../playlist.json').then(function(res){
+axios.get('playlist.json').then(function(res){
     playlistZapify = res;
+})
+.catch (function(err) {
+    console.log(err);
 });
 
 function escolherMusica(genero) {
