@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Zapify</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+        <link rel="stylesheet" href="./tp.css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+      <main>
+        <div id="playlist">
+          <div id="titulo">
+            <h1>Zapify</h1>
+          </div>
+          <div id="header-playlist">
+            <h2>Sua Playlist</h2>
+            <div id="controles-playlist">
+              <button class="botao-configurar" id="adicionar-musica">+</button>
+              <button class="botao-configurar" id="remover-musica">-</button>
+            </div>
+          </div>
+          <div id="musicas"></div>
+        </div>
+        <div id="bot">
+          <div id="chat"></div>
+          <input autofocus placeholder="Digite aqui" type="text" id="box">
+        </div>
+        <button id="botao-modal">Sobre</button>
+      </main>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/modal.js"></script>
+      <script src="js/chat.js"></script>
+      <script src="js/playlist.js"></script>
+    </body>
+</html>

@@ -1,0 +1,255 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  background-image: radial-gradient(#0054db, #002868);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  background-color: #0054db;
+  display: flex;
+  flex-direction: row;
+  margin: 1.25% 10%;
+  width: 80%;
+  height: 95%;
+  border-radius: 16px;
+}
+
+#playlist {
+  overflow-y: auto;
+  width: 37.5%;
+  display: inline-block;
+  border-right: 1px solid #002868;
+  box-sizing: border-box;
+}
+
+#musicas {
+  padding-top: 1px;
+}
+
+#bot {
+  width: 62.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#box {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #002868;
+  border-bottom-right-radius: 16px;
+  box-sizing: border-box;
+  margin: auto 0 0 0;
+  background: white;
+  color: #0054db;
+}
+
+#box::placeholder {
+  color: rgba(0, 84, 219, .5);
+}
+
+.botao-configurar, #botao-modal {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all .3s ease;
+  outline: none;
+}
+
+.botao-configurar:hover {
+  background: white;
+  color: #0054db;
+}
+
+.musica {
+  color: white;
+  border-top: 1px solid #002868;
+  border-bottom: 1px solid #002868;
+  margin-top: -1px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .25s linear;
+}
+.musica:hover {
+  color: #0054db;
+  background-color: white;
+}
+.musica > span {
+  display: block;
+}
+.nome-musica {
+  font-size: 24px;
+  font-weight: bold;
+}
+.genero-musica {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.mensagem {
+  border-radius: 16px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+  color: #0054db;
+  background-color: white;
+}
+.mensagem > a {
+  color: #0054db;
+}
+
+.esquerda {
+  border-bottom-left-radius: 0;
+  margin-left: 5px;
+  align-self: flex-start;
+}
+
+.direita {
+  border-bottom-right-radius: 0;
+  margin-right: 5px;
+  align-self: flex-end;
+  background-color: #002868;
+  color: white;
+}
+
+#header-playlist {
+  position: relative;
+  text-align: center;
+  margin: 10px 0;
+}
+#header-playlist > h2 {
+  margin-bottom: 0;
+}
+#controles-playlist {
+  display: flex;
+  justify-content: center;
+}
+
+#titulo {
+  color: white;
+  font-size: 30px;
+  border-bottom: 1px solid #002868; 
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+}
+h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 5px;
+  margin-top: 0;
+  display: inline-block;
+}
+.janela {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  background-color: white;
+  border-radius: 16px;
+  text-align: center;
+}
+.janela > h2 {
+  color: #0054db;
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.janela > input {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  color: #0054db;
+  font-size: 18px;
+  border: 1px solid #0054db;
+  outline: none;
+  margin-top: 10px;
+}
+.janela > input::placeholder {
+  color: rgba(0, 84, 219, .75);
+}
+.janela > button {
+  font-size: 18px;
+  margin: 20px 10px;
+  color: #0054db;
+  border: 1px solid #0054db;
+  background: none;
+  outline: none;
+  padding: 10px;
+  transition: all .25s linear;
+  cursor: pointer;
+}
+.janela > button:hover {
+  color: white;
+  background-color: #0054db;
+}
+#botao-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#botao-modal:hover {
+  background: white;
+  color: #002868;
+}
+#modal {
+  position: fixed;
+  width: 75%;
+  height: 50%;
+  top: 25%;
+  left: 12.5%;
+  background-color: white;
+  border-radius: 10px;
+  color: #002868;
+  display: none;
+  z-index: 99999;
+}
+#modal > h2 {
+  text-align: center
+}
+#modal > p {
+  text-align: justify;
+  margin: 20%;
+} 
+
+#fechar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #002868;
+}
+
+#fechar:hover{
+  background-color: #002868;
+}
