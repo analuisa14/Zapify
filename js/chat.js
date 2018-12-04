@@ -60,7 +60,7 @@ let bot = [
 ]
 let playlistZapify;
 axios.get('playlist.json').then(function(res){
-    playlistZapify = res;
+    playlistZapify = res.data;
 })
 .catch (function(err) {
     console.log(err);
